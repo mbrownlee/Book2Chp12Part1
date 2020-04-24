@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+#box1 {
+    border: 2px solid;
+    border-color: red;
+} 
+
+#box2 {
+    border: 2px solid;
+    border-color: blue;
+}
+
+.child {
+    flex-basis: 50%
+}
